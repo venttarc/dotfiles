@@ -1,0 +1,8 @@
+## AVOID GITHUB CLI 
+gh/
+
+## AVOID TIDAL TOKENS 
+tidal_dl_ng/
+
+## AVOID HELIX RUNTIME ISSUES
+helix/runtime/

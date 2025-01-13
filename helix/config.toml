@@ -1,0 +1,21 @@
+theme = "github_dark" 
+
+[editor]
+true-color = true
+auto-completion = true
+auto-info = true
+bufferline = 'multiple'
+color-modes = true
+
+[editor.lsp]
+enable = true
+display-messages = true 
+display-inlay-hints = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+ 
+[editor.file-picker]
+hidden = false
