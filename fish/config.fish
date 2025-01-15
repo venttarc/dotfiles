@@ -1,7 +1,6 @@
-#./.cargo/bin/tinty apply base16-black-metal-burzum
 set -g fish_greeting
 
-
+## ALIAS
 alias eza 'eza --icons always --color always --git'
 alias la 'eza -a'
 alias lla 'eza -la'
