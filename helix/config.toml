@@ -7,10 +7,10 @@ auto-info = true
 bufferline = 'multiple'
 color-modes = true
 
-[editor.lsp]
-enable = true
-display-messages = true 
-display-inlay-hints = true
+#[editor.lsp]
+#enable = true
+#display-messages = true 
+#display-inlay-hints = true
 
 [editor.cursor-shape]
 insert = "bar"
