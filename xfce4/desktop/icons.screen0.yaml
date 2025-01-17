@@ -12,21 +12,24 @@ configs:
       width: 2288
       height: 1080
   icons:
-    "trash:///":
-      row: 1
-      col: 0
     "/data/data/com.termux/files/home":
       row: 2
       col: 0
-    "/data/data/com.termux/files/home/Desktop/org.gnome.Calculator.desktop":
+    "trash:///":
       row: 1
+      col: 0
+    "/data/data/com.termux/files/home/Desktop/audacity.desktop":
+      row: 2
       col: 1
-    "/data/data/com.termux/files/home/Desktop/firefox.desktop":
+    "/data/data/com.termux/files/home/Desktop/org.gnome.Calculator.desktop":
       row: 1
       col: 1
     "/data/data/com.termux/files/home/Desktop/New Empty File.txt":
       row: 2
       col: 3
+    "/data/data/com.termux/files/home/Desktop/firefox.desktop":
+      row: 1
+      col: 1
     "/data/data/com.termux/files/home/Desktop/org.keepassxc.KeePassXC.desktop":
       row: 2
       col: 1
