@@ -13,6 +13,12 @@ pulse/
 #more
 xfce4/
 
+qalculate/
+
+/mimeapps.list
+
+/QtProject.conf
+
 Thunar/
 
 asciinema/
