@@ -27,7 +27,9 @@ enable_transience
 #OHMYPOSH
 #oh-my-posh init fish --config $HOME/.config/ohmyposh/base.toml | source
 
+
 #yazi
+export EDITOR=hx
 function y
     set tmp (mktemp -t "yazi-cwd.XXXXXX")
     yazi $argv --cwd-file="$tmp"
