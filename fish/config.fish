@@ -14,7 +14,7 @@ alias fb='yt-dlp --get-url --cookies-from-browser '
 alias shit="apt remove"
 alias eat="apt install"
 alias fuck="rm -rf"
-
+alias g="git"
 
 #zoxide
 eval "$(zoxide init --cmd cd fish)"
