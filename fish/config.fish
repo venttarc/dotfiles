@@ -10,10 +10,9 @@ alias lt 'eza --tree'
 alias cfg='cd .config/fish/ && hx config.fish'
 alias burp="apt search"
 alias fart=" apt autoremove -y"
-alias fb='yt-dlp  --cookies-from-browser "firefox" -n 5'
+alias fb='yt-dlp  --cookies-from-browser "firefox" -N 5 '
 alias shit="apt remove"
 alias eat="apt install"
-alias fuck="rm -rf"
 alias g="git"
 
 #zoxide
@@ -39,4 +38,4 @@ function y
     rm -f -- "$tmp"
 end
 
-fish_config theme choose Nord
+fish_config theme choose Dracula
