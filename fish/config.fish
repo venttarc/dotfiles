@@ -7,14 +7,11 @@ alias lla 'eza -la'
 alias ls eza
 alias ll 'eza -l'
 alias lt 'eza --tree'
-alias cfg='cd .config/fish/ && hx config.fish'
-alias burp="apt search"
-alias fart=" apt autoremove -y"
-alias fb='yt-dlp  --cookies-from-browser "firefox" -n 5 '
-alias shit="apt remove"
-alias eat="apt install"
-alias g="git"
-
+alias cfg='nvim ~/.config/fish/config.fish'
+alias swallow=' python3 -m pip install -U --pre "yt-dlp[default]" && pip3 install -U tidal-dl-ng gallery-dl'
+alias rename="perl-rename"
+alias c="clear"
+alias gogh='bash -c "$(curl -fsSL 'https://raw.githubusercontent.com/AvinashReddy3108/Gogh4Termux/master/install.sh')"'
 #zoxide
 eval "$(zoxide init --cmd cd fish)"
 
@@ -26,9 +23,8 @@ enable_transience
 #OHMYPOSH
 #oh-my-posh init fish --config $HOME/.config/ohmyposh/base.toml | source
 
-
 #yazi
-export EDITOR=hx
+export EDITOR=nvim
 function y
     set tmp (mktemp -t "yazi-cwd.XXXXXX")
     yazi $argv --cwd-file="$tmp"
@@ -38,4 +34,5 @@ function y
     rm -f -- "$tmp"
 end
 
-fish_config theme choose Dracula
+fish_config theme choose Nord
+krabby random
