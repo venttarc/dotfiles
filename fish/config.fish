@@ -12,6 +12,7 @@ alias swallow=' python3 -m pip install -U --pre "yt-dlp[default]" && pip3 instal
 alias rename="perl-rename"
 alias c="clear"
 alias gogh='bash -c "$(curl -fsSL 'https://raw.githubusercontent.com/AvinashReddy3108/Gogh4Termux/master/install.sh')"'
+
 #zoxide
 eval "$(zoxide init --cmd cd fish)"
 
@@ -34,5 +35,5 @@ function y
     rm -f -- "$tmp"
 end
 
-fish_config theme choose Nord
-krabby random
+fish_config theme choose Dracula
+##krabby random
