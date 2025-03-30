@@ -7,8 +7,8 @@ alias lla 'eza -la'
 alias ls eza
 alias ll 'eza -l'
 alias lt 'eza --tree'
-alias cfg='nvim ~/.config/fish/config.fish'
-alias swallow=' python3 -m pip install -U --pre "yt-dlp[default]" && pip3 install -U tidal-dl-ng gallery-dl'
+alias cfg='micro ~/.config/fish/config.fish'
+alias swallow='pip3 install -U tidal-dl-ng gallery-dl'
 alias rename="perl-rename"
 alias c="clear"
 alias gogh='bash -c "$(curl -fsSL 'https://raw.githubusercontent.com/AvinashReddy3108/Gogh4Termux/master/install.sh')"'
@@ -25,7 +25,7 @@ enable_transience
 #oh-my-posh init fish --config $HOME/.config/ohmyposh/base.toml | source
 
 #yazi
-export EDITOR=nvim
+export EDITOR=hx
 function y
     set tmp (mktemp -t "yazi-cwd.XXXXXX")
     yazi $argv --cwd-file="$tmp"
@@ -37,3 +37,4 @@ end
 
 fish_config theme choose Dracula
 ##krabby random
+# python3 -m pip install -U --pre "yt-dlp[default]" 
