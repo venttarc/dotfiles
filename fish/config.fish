@@ -12,6 +12,10 @@ alias swallow='pip3 install -U tidal-dl-ng gallery-dl'
 alias rename="perl-rename"
 alias c="clear"
 alias gogh='bash -c "$(curl -fsSL 'https://raw.githubusercontent.com/AvinashReddy3108/Gogh4Termux/master/install.sh')"'
+alias u='pacman -Syu'
+alias fart="pacman -Scc" 
+alias eat="pacman -S" 
+alias shit='pacman -Rsc'
 
 #zoxide
 eval "$(zoxide init --cmd cd fish)"
@@ -25,7 +29,8 @@ enable_transience
 #oh-my-posh init fish --config $HOME/.config/ohmyposh/base.toml | source
 
 #yazi
-export EDITOR=hx
+export EDITOR=micro
+
 function y
     set tmp (mktemp -t "yazi-cwd.XXXXXX")
     yazi $argv --cwd-file="$tmp"
