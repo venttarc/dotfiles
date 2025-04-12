@@ -7,7 +7,7 @@ alias lla 'eza -la'
 alias ls eza
 alias ll 'eza -l'
 alias lt 'eza --tree'
-alias cfg='micro ~/.config/fish/config.fish'
+alias cfg='nvim ~/.config/fish/config.fish'
 alias swallow='pip3 install -U tidal-dl-ng gallery-dl'
 alias rename="perl-rename"
 alias c="clear"
@@ -16,20 +16,29 @@ alias u='pacman -Syu'
 alias fart="pacman -Scc" 
 alias eat="pacman -S" 
 alias shit='pacman -Rsc'
+alias g='git'
+alias cat="fish_indent --ansi"
 
 #zoxide
 eval "$(zoxide init --cmd cd fish)"
 
-#starship
+#fzf and theme
+eval "$(fzf --fish)"
+
+set -Ux FZF_DEFAULT_OPTS "\
+--color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
+--color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
+--color=marker:#b4befe,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8 \
+--color=selected-bg:#45475a \
+--color=border:#313244,label:#cdd6f4"
+
+#starship#
 export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 starship init fish | source
 enable_transience
-
-#OHMYPOSH
-#oh-my-posh init fish --config $HOME/.config/ohmyposh/base.toml | source
-
+ 
 #yazi
-export EDITOR=micro
+export EDITOR=nvim
 
 function y
     set tmp (mktemp -t "yazi-cwd.XXXXXX")
