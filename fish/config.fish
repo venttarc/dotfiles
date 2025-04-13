@@ -17,7 +17,8 @@ alias fart="pacman -Scc"
 alias eat="pacman -S" 
 alias shit='pacman -Rsc'
 alias g='git'
-alias cat="fish_indent --ansi"
+
+export BAT_STYLE="plain"
 
 #zoxide
 eval "$(zoxide init --cmd cd fish)"
