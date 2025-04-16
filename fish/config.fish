@@ -15,9 +15,9 @@ alias gogh='bash -c "$(curl -fsSL 'https://raw.githubusercontent.com/AvinashRedd
 alias u='pacman -Syu'
 alias fart="pacman -Scc" 
 alias eat="pacman -S" 
-alias shit='pacman -Rsc'
+alias shit='yes | pacman -Rsc'
 alias g='git'
-
+alias burp='pacman -Ss'
 export BAT_STYLE="plain"
 
 #zoxide
@@ -26,12 +26,12 @@ eval "$(zoxide init --cmd cd fish)"
 #fzf and theme
 eval "$(fzf --fish)"
 
-set -Ux FZF_DEFAULT_OPTS "\
---color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
---color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
---color=marker:#b4befe,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8 \
---color=selected-bg:#45475a \
---color=border:#313244,label:#cdd6f4"
+set -Ux FZF_DEFAULT_OPTS "
+	--color=fg:#908caa,bg:#191724,hl:#ebbcba
+	--color=fg+:#e0def4,bg+:#26233a,hl+:#ebbcba
+	--color=border:#403d52,header:#31748f,gutter:#191724
+	--color=spinner:#f6c177,info:#9ccfd8
+	--color=pointer:#c4a7e7,marker:#eb6f92,prompt:#908caa"
 
 #starship#
 export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
