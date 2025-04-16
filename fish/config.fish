@@ -51,5 +51,5 @@ function y
 end
 
 fish_config theme choose Dracula
-##krabby random
+
 # python3 -m pip install -U --pre "yt-dlp[default]" 
