@@ -7,10 +7,10 @@ alias lla 'eza -la'
 alias ls eza
 alias ll 'eza -l'
 alias lt 'eza --tree'
-alias cfg='hx ~/.config/fish/config.fish'
-alias swallow='pip3 install -U tidal-dl-ng gallery-dl'
-alias rename="perl-rename"
-alias c="clear"
+alias cfg 'hx ~/.config/fish/config.fish'
+alias swallow 'pip3 install -U tidal-dl-ng gallery-dl'
+alias rename= perl-rename
+alias c clear
 alias gogh='bash -c "$(curl -fsSL 'https://raw.githubusercontent.com/AvinashReddy3108/Gogh4Termux/master/install.sh')"'
 alias u='pacman -Syu'
 alias fart="yes | pacman -Scc"
