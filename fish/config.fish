@@ -12,7 +12,7 @@ alias c clear
 alias u='pacman -Syu'
 alias fart="yes | pacman -Scc"
 alias eat="pacman -S"
-alias shit='yes | pacman -Rsc'
+alias shit='pacman -Rsc'
 alias burp='pacman -Ss'
 export BAT_STYLE="plain"
 
