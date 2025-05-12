@@ -14,6 +14,9 @@ alias fart="yes | pacman -Scc"
 alias eat="pacman -S"
 alias shit='pacman -Rsc'
 alias burp='pacman -Ss'
+alias z zellij
+alias apktool "java -jar ~/../usr/bin/apktool_2.11.1.jar"
+# alias apkeditor "java -jar ~/../usr/bin/APKEditor-1.4.3.jar"
 export BAT_STYLE="plain"
 
 #zoxide
@@ -22,7 +25,7 @@ eval "$(zoxide init --cmd cd fish)"
 #fzf and theme
 eval "$(fzf --fish)"
 
-#starship#
+#starship
 export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 starship init fish | source
 enable_transience
