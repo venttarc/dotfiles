@@ -5,7 +5,7 @@ export EDITOR=hx
 alias ls "eza --color always --colour-scale-mode gradient --grid --icons always"
 alias uvi "uv pip install -U --system"
 alias uvr "uv pip uninstall --system"
-alisa cd=z
+alias cd=z
 atuin init fish | source
 zoxide init fish | source
 starship init fish | source
