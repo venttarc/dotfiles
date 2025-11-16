@@ -9,6 +9,7 @@ alias cd=z
 alias s "pacman -Ss"
 alias u "pacman -Syu"
 alias d "pacman -Rsc"
+alias i "pacman -S"
 atuin init fish | source
 zoxide init fish | source
 starship init fish | source
