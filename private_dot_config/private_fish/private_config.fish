@@ -6,6 +6,9 @@ alias ls "eza --color always --colour-scale-mode gradient --grid --icons always"
 alias uvi "uv pip install -U --system"
 alias uvr "uv pip uninstall --system"
 alias cd=z
+alias s "pacman -Ss"
+alias u "pacman -Syu"
+alias d "pacman -Rsc"
 atuin init fish | source
 zoxide init fish | source
 starship init fish | source
