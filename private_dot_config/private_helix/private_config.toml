@@ -12,3 +12,6 @@ select = "underline"
 
 [editor.indent-guides]
 render = true
+
+[keys.normal]
+C-r = ":reload"
