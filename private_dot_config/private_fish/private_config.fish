@@ -6,7 +6,7 @@ alias ls "eza --color always --colour-scale-mode gradient --grid --icons always"
 alias uvi "uv pip install -U --system"
 alias uvr "uv pip uninstall --system"
 alias cd=z
-alias acs='mpv --user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 RuxitSynthetic/1.0 v1704477693164681093 t423632970321445770 ath5ee645e0 altpriv cvcv=2 smf=0" --referrer="https://aparsclassroom.com"'
+alias f "rm -rf $PREFIX/var/cache/pacman/pkg"
 alias s "pacman -Ss"
 alias u "pacman -Syu"
 alias d "pacman -Rsc"
