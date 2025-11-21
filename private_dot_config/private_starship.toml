@@ -34,7 +34,8 @@ truncate_to_repo = false
 'Music' = ' '
 'Pictures' = ' '
 
-# [git_branch]
+[git_branch]
+disabled = true
 # style = 'fg:green'
 # symbol = ' '
 # format = '[on](white) [$symbol$branch ]($style)'
