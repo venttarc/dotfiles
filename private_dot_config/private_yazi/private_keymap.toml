@@ -2,3 +2,8 @@
 on   = [ "g", "m" ]
 run  = "cd ~/Music"
 desc = "Go to Music"
+
+[[mgr.prepend_keymap]]
+on   = [ "g", "s" ]
+run  = "cd ~/storage/shared/"
+desc = "Go to Storage"
