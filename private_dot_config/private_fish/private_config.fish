@@ -16,6 +16,7 @@ abbr --add gg "go run main.go --song"
 atuin init fish | source
 zoxide init fish | source
 starship init fish | source
+enable_transience
 function y
     set tmp (mktemp -t "yazi-cwd.XXXXXX")
     yazi $argv --cwd-file="$tmp"
