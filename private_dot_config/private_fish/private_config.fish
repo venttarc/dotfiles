@@ -11,6 +11,8 @@ alias s "pacman -Ss"
 alias u "pacman -Syu"
 alias d "pacman -Rsc"
 alias i "pacman -S"
+abbr --add gg "go run main.go --song"
+
 atuin init fish | source
 zoxide init fish | source
 starship init fish | source
