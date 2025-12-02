@@ -2,7 +2,7 @@ set -g fish_greeting
 export EDITOR=hx
 
 # ALIAS
-alias ls "eza --color always --colour-scale-mode gradient --grid --icons always"
+alias ls "eza --color always --grid --icons always"
 alias uvi "uv pip install -U --system"
 alias uvr "uv pip uninstall --system"
 alias cd=z
