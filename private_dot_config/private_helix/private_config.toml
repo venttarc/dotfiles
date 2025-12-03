@@ -5,6 +5,7 @@ true-color = true
 bufferline = "multiple"
 color-modes = true
 popup-border = "all"
+cursorlimr = true
 
 [editor.cursor-shape]
 insert = "bar"
