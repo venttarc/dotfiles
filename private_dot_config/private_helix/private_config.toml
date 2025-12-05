@@ -1,4 +1,4 @@
-theme = "vesper"
+  theme = "vesper"
 
 [editor]
 true-color = true
@@ -10,6 +10,11 @@ cursorline = true
 [editor.cursor-shape]
 insert = "bar"
 select = "underline"
+
+[editor.statusline]
+mode.normal = "N"
+mode.insert = "I"
+mode.select = "S"
 
 [editor.indent-guides]
 render = true
