@@ -1,4 +1,4 @@
-  theme = "vesper"
+theme = "vesper"
 
 [editor]
 true-color = true
@@ -16,8 +16,6 @@ mode.normal = "N"
 mode.insert = "I"
 mode.select = "S"
 
-[editor.indent-guides]
-render = true
 
 [keys.normal]
 C-r = ":reload"
