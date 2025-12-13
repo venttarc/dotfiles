@@ -6,7 +6,7 @@ alias ls "eza --color always --grid --icons always"
 alias uvi "uv pip install -U --system"
 alias uvr "uv pip uninstall --system"
 alias cd=z
-alias f "rm -rf $PREFIX/var/cache/pacman/pkg"
+alias f "pacman -Scc"
 alias s "pacman -Ss"
 alias u "pacman -Syu"
 alias d "pacman -Rsc"
