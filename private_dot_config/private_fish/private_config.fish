@@ -27,6 +27,7 @@ function y
 end
 
 fish_config theme choose default
+
 export UV_LINK_MODE=copy
 fish_add_path "/data/data/com.termux/files/home/.local/bin"
 fish_add_path "/data/data/com.termux/files/home/go/bin/"
