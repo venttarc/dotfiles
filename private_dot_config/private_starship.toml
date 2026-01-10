@@ -5,14 +5,7 @@ $git_status\
 $fill\
 $python\
 $lua\
-$nodejs\
-$golang\
-$haskell\
 $rust\
-$ruby\
-$package\
-$aws\
-$docker_context\
 $jobs\
 $cmd_duration\
 $line_break\
